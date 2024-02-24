@@ -39,15 +39,18 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
   <style type="text/css">
-    body {
-	display:flex; flex-direction:column; justify-content:center;
-	min-height:100vh;
+    lottie-player {
+	height: 95vh;
+	align-content: center;
+	box-sizing: content-box;
+	transform: scale(0.8);
+	animation: 2s splash infinite;
     }
   </style>
 </head>
 <body style="background-color:black;">
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <lottie-player src="https://d2zi4kn7tjo99f.cloudfront.net/nice_loader.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+  <lottie-player src="https://d2zi4kn7tjo99f.cloudfront.net/nice_loader.json" background="transparent"  speed="1" loop autoplay></lottie-player>
 
   <script>
     window.addEventListener('load', function(ev) {
