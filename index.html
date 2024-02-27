@@ -38,8 +38,17 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <style>
+    #loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: url('https://d2zi4kn7tjo99f.cloudfront.net/ghost_loader.gif') no-repeat center;
+    }
+  </style>
 </head>
 <body style="background-color:black;">
+  <div id="loader"></div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
